@@ -1,0 +1,10 @@
+
+#include <graphics.h>
+Window::Window()
+{
+
+}
+Window::~Window()
+{
+
+}

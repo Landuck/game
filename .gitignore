@@ -1,0 +1,9 @@
+build
+lib/*
+
+bin/*
+
+.DS_Store
+Folder.jpg
+.desktop
+desktop.ini

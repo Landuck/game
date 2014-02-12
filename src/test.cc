@@ -1,10 +1,11 @@
-
 #include <iostream>
-using namespace std;
-
+#include <window.h>
 
 int main()
 {
-	cout << "TEST" << endl;
+	Window window;
+	
+	
+	std::cout << "TEST" << std::endl;
 	return 0;
 }

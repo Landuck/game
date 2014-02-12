@@ -7,3 +7,10 @@ bin/*
 Folder.jpg
 .desktop
 desktop.ini
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+~*

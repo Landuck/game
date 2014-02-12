@@ -6,7 +6,7 @@ SRCEXT := cc
 SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
 OBJECTS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
 CFLAGS := -g -Wall
-LIB := -lsfml-graphics -lsfml-window -lsfml-system
+LIB := -lGL -lsfml-graphics -lsfml-window -lsfml-system -lboost_thread -lboost_filesystem -lboost_system
 INC := -I include
 
 $(TARGET): $(OBJECTS)

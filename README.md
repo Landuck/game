@@ -1,2 +1,5 @@
-#README
+#GAME
+	-todo
+
+#INSTALL
 	-todo
